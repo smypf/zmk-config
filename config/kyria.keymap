@@ -25,9 +25,9 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
-            require-prior-idle-ms = <280>;
-            tapping-term-ms = <175>;
-            quick-tap-ms = <150>;
+			tapping-term-ms = <280>;
+			quick-tap-ms = <175>;
+            require-prior-idle-ms = <150>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_R THUMBS>; // List of keys on the right side of the keyboard
             hold-trigger-on-release;
@@ -37,9 +37,9 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
-            require-prior-idle-ms = <280>;
-            tapping-term-ms = <175>;
-            quick-tap-ms = <150>;
+			tapping-term-ms = <280>;
+			quick-tap-ms = <175>;
+            require-prior-idle-ms = <150>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_L THUMBS>; // List of keys on the left side of the keyboard
             hold-trigger-on-release;
@@ -52,7 +52,7 @@
         layer_0 {
             bindings = <
 &kp BACKSLASH   &kp Q               &kp W             &kp F             &kp P           &kp B                                                  &kp J     &kp Y            &kp U            &kp K              &kp SEMI             &kp EQUAL
-&kp ESC         &mt LEFT_CONTROL A  &mt LEFT_SHIFT R  &mt LEFT_ALT S    &mt LEFT_GUI T  &kp G                                                  &kp L     &mt RIGHT_GUI H  &mt RIGHT_ALT E  &mt RIGHT_SHIFT I  &mt RIGHT_CONTROL O  &kp SQT
+&kp ESC         &hml LEFT_CONTROL A  &hml LEFT_SHIFT R  &hml LEFT_ALT S    &hml LEFT_GUI T  &kp G                                                  &kp L     &hmr RIGHT_GUI H  &hmr RIGHT_ALT E  &hmr RIGHT_SHIFT I  &hmr RIGHT_CONTROL O  &kp SQT
 &kp LEFT_SHIFT  &kp Z               &kp X             &kp C             &kp D           &kp V    &kp F1     &kp F2   &kp F8       &kp F12      &kp M     &kp N            &kp COMMA        &kp DOT            &kp FSLH             &kp MINUS
                                                       &kp K_PLAY_PAUSE  &kp BSPC        &kp TAB  &kp SPACE  &kp RET  &lt 2 ENTER  &lt 1 SPACE  &kp BSPC  &kp DEL          &kp K_MUTE
             >;
