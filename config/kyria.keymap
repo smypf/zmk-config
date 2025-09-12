@@ -52,7 +52,7 @@
         layer_0 {
             bindings = <
 &kp BACKSLASH   &kp Q               &kp W             &kp F             &kp P           &kp B                                                  &kp J     &kp Y            &kp U            &kp K              &kp SEMI             &kp EQUAL
-&kp ESC         &hml LEFT_CONTROL A  &hml LEFT_SHIFT R  &hml LEFT_ALT S    &hml LEFT_GUI T  &kp G                                                  &kp L     &hmr RIGHT_GUI H  &hmr RIGHT_ALT E  &hmr RIGHT_SHIFT I  &hmr RIGHT_CONTROL O  &kp SQT
+&kp ESC         &hml LEFT_ALT A  &hml LEFT_SHIFT R  &hml LEFT_CONTROL S    &hml LEFT_GUI T  &kp G                                                  &kp L     &hmr RIGHT_GUI H  &hmr RIGHT_CONTROL E  &hmr RIGHT_SHIFT I  &hmr RIGHT_ALT O  &kp SQT
 &kp LEFT_SHIFT  &kp Z               &kp X             &kp C             &kp D           &kp V    &kp F1     &kp F2   &kp F8       &kp F12      &kp M     &kp N            &kp COMMA        &kp DOT            &kp FSLH             &kp MINUS
                                                       &kp K_PLAY_PAUSE  &kp BSPC        &kp TAB  &kp SPACE  &kp RET  &lt 2 ENTER  &lt 1 SPACE  &kp BSPC  &kp DEL          &kp K_MUTE
             >;
